@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', init);
 
 window.onerror = (e)=>{console.error(e)};
 
-// TrackJS.track('Testing TrackJS!');
+TrackJS.track('Testing TrackJS!');
 
 function init(){
     const consoleLogButton = document.querySelector('#console-log');
